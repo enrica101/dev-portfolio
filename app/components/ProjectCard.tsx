@@ -2,16 +2,19 @@ import React from "react";
 
 const ProjectCard = ({
   title = "Project title",
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  //   description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
   tags = ["Next.js", "TailwindCSS"],
 }: {
   title: string;
-  description: string | null;
+  //   description: string | null;
   tags: string[];
 }) => {
   const tagsList = tags.map((tag) => (
     <div className="badge badge-outline">{tag}</div>
   ));
+
+  const description =
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
   return (
     <div className="card w-96 bg-neutral shadow-xl rounded-md">
       <figure>
