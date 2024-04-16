@@ -4,9 +4,11 @@ import Image from "next/image";
 const Skills = () => {
   return (
     <div className="hero min-h-32">
-      <div className="hero-content text-center">
+      <div className="hero-content text-center  text-neutral-content">
         <div className="prose">
-          <h2 className="mb-5 text-4xl text-white font-bold">Skills</h2>
+          <div className=" mb-5  divider flex justify-center items-center divider-neutral">
+            <h2 className="text-4xl text-white font-bold my-0">Skills</h2>
+          </div>
           <br></br>
           <div className="flex justify-center items-center max-w-md flex-wrap w-full gap-8 mb-5 ">
             <Image

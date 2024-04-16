@@ -3,7 +3,7 @@ import Avatar from "./Avatar";
 
 const Hero = () => {
   return (
-    <div className=" hero min-h-screen">
+    <div className="hero min-h-screen" id="home">
       <div className="hero-content text-center text-neutral-content">
         <div className="prose flex flex-col max-w-xl">
           <Avatar />

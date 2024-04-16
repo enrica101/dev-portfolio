@@ -4,7 +4,6 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/react";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import SideMenu from "./components/SideMenu";
 
 export const metadata: Metadata = {
   title: "Enrica Carpena's Portfolio",
@@ -20,9 +19,8 @@ export default function RootLayout({
     <html lang="en" data-theme="synthwave">
       <SpeedInsights />
       <Analytics />
-      <body className="relative">
+      <body>
         <Navbar />
-        <SideMenu />
         {children}
         <Footer />
       </body>

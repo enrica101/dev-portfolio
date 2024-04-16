@@ -2,9 +2,9 @@ import React from "react";
 
 const SideMenu = () => {
   return (
-    <ul className="invisible sticky menu w-fit ml-5 bg-base-200 rounded-box top-[50%] sm:visible">
+    <ul className="invisible sticky h-0 menu w-fit ml-5 bg-base-200 rounded-box top-[50%] sm:visible sm:h-fit">
       <li>
-        <a className="tooltip tooltip-right" data-tip="Home">
+        <a className="tooltip tooltip-right" href="#home" data-tip="Home">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -23,7 +23,11 @@ const SideMenu = () => {
         </a>
       </li>
       <li>
-        <a className="tooltip tooltip-right" data-tip="Projects">
+        <a
+          className="tooltip tooltip-right"
+          href="#projects"
+          data-tip="Projects"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -44,7 +48,11 @@ const SideMenu = () => {
         </a>
       </li>
       <li>
-        <a className="tooltip tooltip-right" data-tip="Figma Designs">
+        <a
+          className="tooltip tooltip-right"
+          href="#designs"
+          data-tip="Figma Designs"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -66,7 +74,11 @@ const SideMenu = () => {
         </a>
       </li>
       <li>
-        <a className="tooltip tooltip-right" data-tip="Contact Info">
+        <a
+          className="tooltip tooltip-right"
+          href="#contact"
+          data-tip="Contact Info"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
