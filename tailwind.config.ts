@@ -9,14 +9,24 @@ const config: Config = {
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  theme: {
-    extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+  daisyui: {
+    // themes: ["nord", "dark", "dracula"],
+    themes: [
+      {
+        mytheme: {
+        
+        "primary": "#132043",
+        "secondary": "#1F4172",
+        "accent": "#F1B4BB",
+        "neutral": "#f3f4f6",
+        "base-100": "#ffffff",
+        "info": "#1e40af",
+        "success": "#22c55e",
+        "warning": "#fbbf24",
+        "error": "#dc2626",
+        },
       },
-    },
+    ],
   },
   plugins: [require("daisyui")],
 };
