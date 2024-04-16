@@ -3,12 +3,12 @@ import Image from "next/image";
 
 const Avatar = () => {
   return (
-    <div>
-      <div className="avatar placeholder">
-        <div className="bg-neutral text-neutral-content rounded-full w-42">
+    <div className="invisible h-0 sm:visible sm:h-full">
+      <div className=" avatar placeholder">
+        <div className="bg-neutral text-neutral-content rounded-full w-56">
           {/* <span className="flex justify-center items-center text-3xl"> */}
           <Image
-            src={"/assets/graduation-photo.png"}
+            src={"/assets/girl-1.png"}
             alt="My Photo"
             width={100}
             height={100}

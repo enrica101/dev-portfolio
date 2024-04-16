@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer p-10 bg-neutral text-neutral-content">
       <aside>
-        <Logo dark={true} />
+        <Logo dark={false} />
         <p>
           Made by Enrica Jules Carpena <br />ⓒ Copyrights 2024
         </p>

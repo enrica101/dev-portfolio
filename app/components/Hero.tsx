@@ -1,22 +1,28 @@
 import React from "react";
-import GlassCard from "./GlassCard";
+import Avatar from "./Avatar";
 
 const Hero = () => {
   return (
-    <div className="hero min-h-screen bg-transparent">
-      <div className=""></div>
+    <div className=" hero min-h-screen">
       <div className="hero-content text-center text-neutral-content">
-        <div className="max-w-md">
-          <GlassCard />
-          {/* <Avatar />
+        <div className="prose flex flex-col max-w-xl">
+          <Avatar />
           <br></br>
-          <h1 className="mb-5 text-5xl text-white font-bold">Hello there</h1>
+          <h2 className="mb-5 text-4xl text-slate-300 lg:text-5xl">
+            Hey everyone, I'm{" "}
+          </h2>
+          <h1 className="mb-5 text-5xl text-accent font-bold lg:text-7xl">
+            Enrica Jules Carpena
+          </h1>
           <p className="mb-5 text-gray-300">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
+            I'm all about creating engaging and user-friendly digital
+            experiences. Whether it's crafting a sleek website or building a
+            responsive app, I love the challenge of making technology work for
+            people. Outside of work, you'll find me sitting in Starbucks
+            enjoying my iced Caramel Machiatto with subsoy. I'm really thrilled
+            to connect with you. Let's dive right into it!
           </p>
-          <button className="btn btn-primary">Get Started</button> */}
+          <button className="btn btn-primary">Know more</button>
         </div>
       </div>
     </div>
