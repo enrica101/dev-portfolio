@@ -8,10 +8,11 @@ const Avatar = () => {
         <div className="bg-neutral text-neutral-content rounded-full w-56">
           {/* <span className="flex justify-center items-center text-3xl"> */}
           <Image
-            src={"/assets/girl-1.png"}
+            src={"/assets/enrica-photo.png"}
             alt="My Photo"
             width={100}
             height={100}
+            style={{ objectFit: "contain", objectPosition: "center" }}
           />
           {/* </span> */}
         </div>

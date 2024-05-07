@@ -30,12 +30,19 @@ const Timeline = () => {
             <div className="text-lg font-medium text-secondary">
               🏢 Black Capital Technology
             </div>
-            The Apple Macintosh—later rebranded as the Macintosh 128K—is the
-            original Apple Macintosh personal computer. It played a pivotal role
-            in establishing desktop publishing as a general office function. The
-            motherboard, a 9 in (23 cm) CRT monitor, and a floppy drive were
-            housed in a beige case with integrated carrying handle; it came with
-            a keyboard and single-button mouse.
+            <ul className="text-left">
+              <li>
+                Collaborating with the development team to fix bug issues.
+              </li>
+              <li>
+                Worked on adding new funtionalities to the software, following
+                best practices and coding standards.
+              </li>
+              <li>
+                Developed new features ensuring they met the project requirement
+                and were integrated seamlessly into the existing system.
+              </li>
+            </ul>
           </div>
           <hr />
         </li>
@@ -63,10 +70,26 @@ const Timeline = () => {
             <div className="text-lg font-medium text-secondary">
               🏢 Progressify ApS
             </div>
-            iMac is a family of all-in-one Mac desktop computers designed and
-            built by Apple Inc. It has been the primary part of Apple's consumer
-            desktop offerings since its debut in August 1998, and has evolved
-            through seven distinct forms
+            <ul className="text-left">
+              <li>
+                Participated in daily standups and used Jira to manage tickets
+                for tasking.
+              </li>
+              <li>Identified edge cases and performed end-to-end testing.</li>
+              <li>
+                Collaborated effectively in Agile development across different
+                time zones with a team of 4 people, delivering results remotely
+                and on-time.
+              </li>
+              <li>
+                Designed and developed an admin dashboard and implemented main
+                CRUD functions for the CMS backend controls of the said core
+                feature as part of a team.
+              </li>
+              <li>
+                Developed frontend components to build a components library
+              </li>
+            </ul>
           </div>
           <hr />
         </li>
@@ -94,13 +117,7 @@ const Timeline = () => {
             <div className="text-lg font-medium text-secondary">
               🏢 Progressify ApS
             </div>
-            The iPod is a discontinued series of portable media players and
-            multi-purpose mobile devices designed and marketed by Apple Inc. The
-            first version was released on October 23, 2001, about 8+1⁄2 months
-            after the Macintosh version of iTunes was released. Apple sold an
-            estimated 450 million iPod products as of 2022. Apple discontinued
-            the iPod product line on May 10, 2022. At over 20 years, the iPod
-            brand is the oldest to be discontinued by Apple
+            {/* list of responsibilities */}
           </div>
           <hr />
         </li>
@@ -129,13 +146,7 @@ const Timeline = () => {
             <div className="text-lg font-medium text-secondary">
               🏫 University of San Jose - Recoletos
             </div>
-            iPhone is a line of smartphones produced by Apple Inc. that use
-            Apple's own iOS mobile operating system. The first-generation iPhone
-            was announced by then-Apple CEO Steve Jobs on January 9, 2007. Since
-            then, Apple has annually released new iPhone models and iOS updates.
-            As of November 1, 2018, more than 2.2 billion iPhones had been sold.
-            As of 2022, the iPhone accounts for 15.6% of global smartphone
-            market share
+            {/* List of academic accomplishments */}
           </div>
           {/* <hr /> */}
         </li>
