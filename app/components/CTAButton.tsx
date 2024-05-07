@@ -5,11 +5,16 @@ const CTAButton = ({
   href = "#",
   state = "btn-primary",
   newTab = false,
+  onClick,
 }: any) => {
-  return (
+  return onClick == undefined ? (
     <a className={`btn ${state}`} href={href} target={newTab ? "_blank" : ""}>
       {name}
     </a>
+  ) : (
+    <button className={`btn ${state}`} onClick={onClick}>
+      {name}
+    </button>
   );
 };
 

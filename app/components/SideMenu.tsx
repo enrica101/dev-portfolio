@@ -76,7 +76,7 @@ const SideMenu = () => {
       <li>
         <a
           className="tooltip tooltip-right"
-          href="#contact"
+          href="#contactModal"
           data-tip="Contact Info"
         >
           <svg

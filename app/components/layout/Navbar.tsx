@@ -1,8 +1,11 @@
-import React from "react";
-import Logo from "./Logo";
-import CTAButton from "./CTAButton";
+"use client";
+import React, { useState } from "react";
+import Logo from "../Logo";
+import CTAButton from "../CTAButton";
+import ContactInfoDialog from "../ContactInfoDialog";
 
 const navbar = () => {
+  const [showModal, setShowModal] = useState<boolean>(false);
   return (
     <div className="navbar bg-base-100">
       <div className="navbar-start">
@@ -46,7 +49,7 @@ const navbar = () => {
             </li>
           </ul>
         </div> */}
-        <a className="btn btn-ghost text-xl">
+        <a className="btn btn-ghost text-xl" href="/">
           <Logo dark={false} />
         </a>
       </div>
@@ -74,8 +77,9 @@ const navbar = () => {
         </ul>
       </div> */}
       <div className="navbar-end">
-        <CTAButton name="Contact" />
+        <CTAButton name="Contact" href="#contactModal" />
       </div>
+      <ContactInfoDialog />
     </div>
   );
 };

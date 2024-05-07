@@ -10,7 +10,7 @@ const config: Config = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   daisyui: {
-    themes: ["nord", "dark", "night", "synthwave", "retro", "cyberpunk", "lofi", "dracula", "luxury", "forest", "aqua", "wireframe", "black", "gray", "white", "cool", "warm", "deep", "light"],
+    themes: ["nord", "dark", "night", "synthwave", "retro", "cyberpunk", "lofi", "dracula", "luxury", "forest", "aqua", "wireframe", "black", "gray", "white", "cool", "warm", "deep", "light", "pastel"],
     // themes: [
     //   {
     //     mytheme: {

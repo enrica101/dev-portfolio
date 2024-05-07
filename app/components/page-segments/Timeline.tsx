@@ -2,7 +2,7 @@ import React from "react";
 
 const Timeline = () => {
   return (
-    <div className="mx-auto max-w-md my-12 md:max-w-xl ">
+    <div className="mx-auto max-w-md my-12 md:max-w-xl " id="timeline">
       <div className=" mt-14 mb-16 divider flex justify-center items-center divider-neutral">
         <h2 className="text-4xl text-white font-bold my-0">Timeline</h2>
       </div>

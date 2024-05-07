@@ -1,5 +1,6 @@
 import React from "react";
-import Avatar from "./Avatar";
+import Avatar from "../Avatar";
+import CTAButton from "../CTAButton";
 
 const Hero = () => {
   return (
@@ -20,7 +21,7 @@ const Hero = () => {
             enjoying my iced Caramel Machiatto with subsoy. I'm really thrilled
             to connect with you. Let's dive right into it!
           </p>
-          <button className="btn btn-primary">Know more</button>
+          <CTAButton name="Know more" href="#timeline" />
         </div>
       </div>
     </div>

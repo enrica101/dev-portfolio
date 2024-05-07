@@ -1,8 +1,9 @@
-import Hero from "./components/Hero";
-import Projects from "./components/Projects";
+import Hero from "./components/page-segments/Hero";
+import Projects from "./components/page-segments/Projects";
 import SideMenu from "./components/SideMenu";
-import Skills from "./components/Skills";
-import Timeline from "./components/Timeline";
+import Skills from "./components/page-segments/Skills";
+import Timeline from "./components/page-segments/Timeline";
+import ContactInfoDialog from "./components/ContactInfoDialog";
 
 export default function Home() {
   return (

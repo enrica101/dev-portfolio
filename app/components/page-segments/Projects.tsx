@@ -1,7 +1,7 @@
 import React from "react";
-import ProjectCard from "./ProjectCard";
-import { projects } from "./utlities/data";
-import CTAButton from "./CTAButton";
+import ProjectCard from "../ProjectCard";
+import { projects } from "../utlities/data";
+import CTAButton from "../CTAButton";
 
 const Projects = () => {
   return (

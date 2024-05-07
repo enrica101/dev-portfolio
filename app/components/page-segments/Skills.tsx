@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { skills } from "./utlities/data";
+import { skills } from "../utlities/data";
 
 const Skills = () => {
   return (
