@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "./Logo";
+import CTAButton from "./CTAButton";
 
 const navbar = () => {
   return (
@@ -73,7 +74,7 @@ const navbar = () => {
         </ul>
       </div> */}
       <div className="navbar-end">
-        <a className="btn btn-primary ">Contact</a>
+        <CTAButton name="Contact" />
       </div>
     </div>
   );
