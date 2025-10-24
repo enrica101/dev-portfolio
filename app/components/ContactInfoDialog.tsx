@@ -14,10 +14,10 @@ const ContactInfoDialog = () => {
         <p className="py-4" data-theme="pastel">
           Email Address:{" "}
           <a
-            href="mailto:enricajcarpena@gmail.com"
+            href="mailto:enricacarpena@outlook.com"
             className="text-neutral font-bold"
           >
-            enricajcarpena@gmail.com
+            enricacarpena@outlook.com
           </a>
         </p>
         <div className="modal-action" data-theme="pastel">

@@ -10,9 +10,9 @@ const Projects = () => {
         <h2 className="text-4xl text-white font-bold my-0">Projects</h2>
       </div>
       {projects.length == 0 ? (
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center w-full max-w-3/4">
           <h3 className="">This section is still under way!</h3>
-          <p>In the meantime, you can check out my GitHub Account 😄</p>
+          <p className="text-center">In the meantime, you can check out my GitHub Account 😄</p>
           <br></br>
           <CTAButton
             name="Go to GitHub"

@@ -12,9 +12,9 @@ export default function Home() {
 
       <Hero />
       <Skills />
-      <div className="h-20 md:h-40"></div>
-      <Timeline />
-      <div className="h-20 md:h-40"></div>
+      {/* <div className="h-20 md:h-40"></div>
+      <Timeline /> */}
+      {/* <div className="h-20 md:h-40"></div> */}
       <Projects />
     </main>
   );

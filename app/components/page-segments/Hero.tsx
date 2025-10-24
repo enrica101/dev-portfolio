@@ -5,7 +5,7 @@ import CTAButton from "../CTAButton";
 const Hero = () => {
   return (
     <div className="hero min-h-screen" id="home">
-      <div className="hero-content text-center text-neutral-content">
+      <div className="hero-content text-center text-neutral-content z-1">
         <div className="prose flex flex-col max-w-xl">
           <Avatar />
           <br></br>
