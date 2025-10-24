@@ -3,15 +3,15 @@ import Image from "next/image";
 
 const Avatar = () => {
   return (
-    <div className="invisible h-0 sm:visible sm:h-full">
+    <div className=" sm:h-full z-1">
       <div className=" avatar placeholder">
-        <div className="bg-neutral text-neutral-content rounded-full w-56">
+        <div className="bg-neutral text-neutral-content rounded-full w-64">
           <Image
-            src={"/assets/enrica-photo.png"}
+            src={"/assets/enrica-photo-3.png"}
             alt="My Photo"
             width={100}
             height={100}
-            style={{ objectFit: "contain", objectPosition: "center" }}
+            style={{ objectFit: "contain", objectPosition: "center", scale: 1.2 }}
           />
         </div>
       </div>

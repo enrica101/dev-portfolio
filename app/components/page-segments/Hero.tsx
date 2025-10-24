@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className="hero min-h-screen" id="home">
       <div className="hero-content text-center text-neutral-content z-1">
-        <div className="prose flex flex-col max-w-xl">
+        <div className="prose flex flex-col max-w-xl space-y-4 justify-center items-center">
           <Avatar />
           <br></br>
           <h2 className="mb-5 text-4xl lg:text-5xl">Hey everyone, I'm </h2>
@@ -21,7 +21,6 @@ const Hero = () => {
             enjoying my iced Caramel Machiatto with subsoy. I'm really thrilled
             to connect with you. Let's dive right into it!
           </p>
-          <CTAButton name="Know more" href="#timeline" />
         </div>
       </div>
     </div>
